@@ -1,0 +1,1 @@
+@dotnet ef migrations add %1 --msbuildprojectextensionspath ..\artifacts\obj\PropertiesWebService.DatabaseMigrator\

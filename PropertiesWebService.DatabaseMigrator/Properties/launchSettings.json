@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "DatabaseMigrator": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7220"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "containerRunArguments": "--init",
+      "httpPort": 31745,
+      "useSSL": false
+    }
+  }
+}
